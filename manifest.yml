@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: confluence-hello-world-hello-world
+      function: main
+      title: Icon Macro
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/2633f0fc-1137-49a5-a763-3605888b81eb
